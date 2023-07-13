@@ -1,4 +1,4 @@
-class overview {
+class Overview {
   String? coverPhoto;
   String? seriesName;
   List<String>? coachesNames;
@@ -8,7 +8,7 @@ class overview {
   List<Classes>? classes;
   List<SocialFeed>? socialFeed;
 
-  overview(
+  Overview(
       {this.coverPhoto,
         this.seriesName,
         this.coachesNames,
@@ -18,7 +18,7 @@ class overview {
         this.classes,
         this.socialFeed});
 
-  overview.fromJson(Map<String, dynamic> json) {
+  Overview.fromJson(Map<String, dynamic> json) {
     coverPhoto = json['coverPhoto'];
     seriesName = json['seriesName'];
     coachesNames = json['coachesNames'].cast<String>();

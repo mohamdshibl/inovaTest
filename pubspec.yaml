@@ -40,6 +40,8 @@ dependencies:
   flutter_bloc:
   dio:
   sizer:
+  http:
+  conditional_builder_null_safety:
 
 
 dev_dependencies:
